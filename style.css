@@ -2,11 +2,38 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: white;
-  padding-left: 20px;
+  background-color: rgb(231, 243, 255);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Fascinate Inline", sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: rgb(84, 138, 255);
+  background-color: rgb(255, 252, 247);
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
+
+button{
+  background-color: rgb(179, 219, 255);
+  border-radius: 10px;
+  color: rgb(67, 67, 177);
+  border-color: rgb(67, 67, 177);
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+    button:hover{
+      background-color: rgb(191, 251, 255);
+    }
+
+#buttonfix{
+  text-align: center;
+}
+
