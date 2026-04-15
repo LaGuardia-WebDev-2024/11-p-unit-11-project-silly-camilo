@@ -89,12 +89,16 @@ Select ONE Additional
       $("#1-button").click(function () {
         $("#song1").css("color", "purple");
         $(".1").show();
+          $(".2").hide();
+          $(".3").hide();
       });
 
       // ======================== Button #2
       $("#2-button").click(function () {
         $("#song2").css("color", "white");
         $(".2").show();
+          $(".1").hide();
+          $(".3").hide();
       });
 
       // ======================== Button #3
@@ -102,6 +106,8 @@ Select ONE Additional
         $("#mem3").css("color", "green");
         $("#song3").text("Coding Parties! 🎉");
         $(".3").show();
+          $(".1").hide();
+          $(".2").hide();
       });
 
 
