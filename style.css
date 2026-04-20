@@ -2,9 +2,18 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: rgb(231, 243, 255);
+  animation: colorChange 10s infinite alternate;
+  background-size: 100%;
+  background-blend-mode: overlay;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/877/485/non_2x/pastel-blue-floral-pattern-for-printing-fabric-pattern-background-vector.jpg");
   font-family: 'Courier New', Courier, monospace;
 }
+
+                @keyframes colorChange 
+                {0%{background-color: rgb(181, 238, 255);}
+                50%{background-color: rgb(166, 182, 255)}
+                75%{background-color: rgb(255, 188, 255);}
+                100%{background-color: rgb(255, 222, 146);}}
 
 /* ======================== CSS Rule #2 */
 h1 {
@@ -102,6 +111,46 @@ a{
     margin-bottom: 10px;
   }
 
+  .bg1{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
 
+   .bg2{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
+
+  .bg3{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
+
+  .bg4{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
+
+   .bg5{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
+
+  .bg6{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
+
+  .bg7{
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-image: url("https://as2.ftcdn.net/jpg/01/24/88/45/1000_F_124884537_4KD8K83TTd71w2eYpEJQr8YB2sbXyhPs.jpg");
+  }
   
 
